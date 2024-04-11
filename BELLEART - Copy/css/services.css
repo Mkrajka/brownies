@@ -1,0 +1,165 @@
+/*
+Template Name:Artiste
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* services_main ****************/
+#services_main{ 
+ background-image: url(../img/27.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.services_inner{ 
+ padding-top:120px;
+ padding-bottom:120px;
+ background-color: #000000ab;
+}
+.services_main_1{ 
+ text-align:center;
+}
+
+.services_main_1 h3{ 
+ margin-top:0px;
+ color:#fff;
+}
+.services_main_1 ul{ 
+ padding-top:10px;
+}
+.services_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.services_main_1 li a:hover{
+color:#fff;
+}
+/********************* services_main_end ****************/
+/********************* services ****************/
+.services_1{ 
+ text-align:center;
+ }
+.services_1 h2{ 
+ color: #f0a951;
+ padding-top:40px;
+ }
+.services_1 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:40px;
+ }
+.services_2{ 
+ background-color: #f0a95117;
+ }
+.services_4 h2{ 
+ padding-top:95px;
+ padding-bottom: 30px;
+ color: #f0a951;
+ }
+.services_4 p{ 
+ padding-bottom: 30px;
+ }
+.services_4{ 
+ padding-left:30px;
+ }
+/********************* services_end ****************/
+
+
+
+@media screen and (max-width : 767px){
+#services{
+ text-align:center;
+}
+.services_inner {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+.services_1 p {
+ padding-bottom: 20px;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+.services_1 h2 {
+ padding-top: 20px;
+}
+#services_inner{ 
+ text-align:center;
+}
+.services_4 {
+ padding-left: 0px;
+ padding-bottom:20px;
+}
+.services_4 h2 {
+ padding-top: 30px;
+ padding-bottom: 0px;
+}
+.services_4 p {
+ padding-bottom: 0px;
+ padding-left:10px;
+ padding-right:10px;
+ text-align:left;
+}
+.services_3 img{
+ margin-top:20px;
+}
+.services_1 p{
+text-align:left; 
+ }
+.services_1 br{
+display:none;
+ }
+}
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+@media (min-width:768px) and (max-width:991px) { 
+.services_1 h2 {
+ padding-top: 20px;
+}
+.services_1 p {
+ padding-bottom: 20px;
+}
+.services_4 h2 {
+ padding-top: 20px;
+ padding-bottom: 0px;
+ font-size: 30px;
+}
+.services_4 p {
+ padding-bottom: 0px;
+ font-size: 15px;
+}
+} 
+
+@media (min-width:992px) and (max-width:1200px) {
+.services_1 h2 {
+ padding-top: 20px;
+}
+.services_1 p {
+ padding-bottom: 20px;
+}
+.services_4 h2 {
+ padding-top: 70px;
+ padding-bottom: 0px;
+ font-size: 30px;
+}
+.services_4 p {
+ padding-bottom: 0px;
+ font-size: 15px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+.services_4 h2 {
+ padding-top: 70px;
+ padding-bottom: 20px;
+}
+.services_4 p {
+ padding-bottom: 10px;
+}
+}

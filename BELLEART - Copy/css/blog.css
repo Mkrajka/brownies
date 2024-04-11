@@ -1,0 +1,226 @@
+/*
+Template Name:Artiste
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* blog_main ****************/
+#blog_main{ 
+ background-image: url(../img/33.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.blog_inner{ 
+ padding-top:120px;
+ padding-bottom:120px;
+ background-color: #000000ab;
+}
+.blog_main_1{ 
+ text-align:center;
+}
+.blog_main_1 h1{ 
+ color:#fff;
+}
+.blog_main_1 h3{ 
+ margin-top:0px;
+ color:#fff;
+}
+.blog_main_1 ul{ 
+ padding-top:10px;
+}
+.blog_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.blog_main_1 li a:hover{ 
+ color: #fff;
+}
+/********************* blog_main_end ****************/
+/********************* blog ****************/
+#blog{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.blog_2 h3{ 
+ padding-top:15px;
+ padding-bottom:10px;
+ }
+
+.blog_2 p{ 
+ padding:0px;
+ margin:0px; 
+ padding-bottom:10px;
+ }
+.blog_2 li{ 
+ display:inline;
+ color:#999;
+ font-size:20px;
+ padding-right:10px;
+ }
+.well_1 a{ 
+ font-size:20px;
+ }
+.well_2 a{ 
+ color: #999;
+ font-size:20px;
+ }
+.well_2 a:hover{ 
+ color: #f0a951;
+ }
+.blog_2{ 
+ border:1px solid #f0a95142;
+ padding: 20px;
+ margin-bottom: 20px;
+ }
+.blog_3{ 
+ text-align:center;
+ }
+.blog_4 ul{ 
+ text-align:center;
+ padding-top:20px;
+ }
+.blog_4 li{ 
+ display:inline;
+ padding-right:20px;
+ font-size:25px;
+ }
+.blog_4 li a{ 
+ font-size:25px;
+ }
+
+#blog .form-control {
+ height: 49px;
+ font-size: 20px;
+ background-color: #f0a95117;
+ border: 1px solid #f0a95142;
+ border-radius: 4px;
+ box-shadow:none;
+}
+#blog .glyphicon {
+ top: 4px;
+}
+#blog .btn-danger {
+ color: #fff;
+ background-color: #f0a951;
+ border-color: #f0a951;
+ padding: 13px 20px;
+}
+.blog_6 h3{ 
+ padding-top: 20px;
+ }
+.blog_8 i{ 
+ padding-right:10px;
+ font-size:15px;
+ color:#f0a951;
+ }
+.blog_8 li{ 
+ line-height:35px;
+ font-size:18px;
+ }
+.blog_8 li a{ 
+ font-size:18px;
+ }
+
+.blog_8 img{
+ padding-right:5px;	
+ padding-bottom:5px;
+ }
+.blog_11{ 
+ padding-left:10px;
+ padding-bottom:20px;
+ }
+.blog_11 h4{ 
+ padding-bottom: 5px;
+ color: #f0a951;
+ line-height: 25px;
+ }
+.blog_11 p{ 
+ color: #c1c1c0;
+ padding:0px;
+ margin:0px;
+ font-size:14px;
+ }
+.blog_12 img{ 
+ padding-top:20px;
+ }
+/********************* blog_end ****************/
+
+
+
+@media screen and (max-width : 767px){
+.blog_inner {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+#blog {
+ text-align: center;
+}
+
+.blog_2 p{
+text-align:left; 
+ }
+.blog_7{
+text-align:left;  
+ }
+.blog_9{
+text-align:left;
+margin-top:10px;  
+ }
+.blog_12 p{
+text-align:left; 
+ }
+.blog_5{
+margin-top:15px;   
+ }
+}
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+@media (min-width:768px) and (max-width:991px) { 
+.blog_8 li a {
+ font-size: 13px;
+}
+.blog_6 h3 {
+ margin-bottom: 5px;
+}
+.blog_11 h4 {
+ line-height: 14px;
+ font-size: 14px;
+}
+.blog_11 p {
+ font-size: 13px;
+}
+.blog_12 p{ 
+ font-size: 16px; 
+}
+} 
+
+@media (min-width:992px) and (max-width:1200px) {
+.blog_8 li a {
+ font-size: 13px;
+}
+.blog_6 h3 {
+ margin-bottom: 5px;
+}
+.blog_11 h4 {
+ line-height: 14px;
+ font-size: 14px;
+}
+.blog_11 p {
+ font-size: 13px;
+}
+.blog_12 p{ 
+ font-size: 16px; 
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

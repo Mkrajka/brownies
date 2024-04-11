@@ -1,0 +1,220 @@
+/*
+Template Name:Artiste
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* about_main ****************/
+#about_main{ 
+ background-image: url(../img/18.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.about_inner{ 
+ padding-top:120px;
+ padding-bottom:120px;
+ background-color: #000000ab;
+}
+.about_main_1{ 
+ text-align:center;
+}
+
+.about_main_1 h3{ 
+ margin-top:0px;
+ color:#fff;
+}
+.about_main_1 ul{ 
+ padding-top:10px;
+}
+.about_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.about_main_1 li a:hover{
+color:#fff;
+}
+/********************* about_main_end ****************/
+/********************* about ****************/
+#about{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.about_3 h2{ 
+ padding-top:10px;
+ color: #f0a951;
+ }
+.about_3 h3{ 
+ padding-top:10px;
+ padding-bottom:10px;
+ }
+/********************* about_end ****************/
+/********************* team_main ****************/
+#team_main{ 
+ background-color:#f0a95117;
+ }
+.team_main_2{ 
+ text-align:center;
+ border-bottom: 10px solid #f0a95142;
+ }
+.team_main_2:hover{ 
+ border-bottom: 10px solid #f0a951;
+ }
+.team_main_2 h3{ 
+ padding-top:10px;
+ padding-bottom:3px;
+ color: #f0a951;
+ }
+.team_main_2 p{ 
+ padding:0px;
+ margin:0px;
+ padding-bottom:10px;
+ }
+/********************* team_main_end ****************/
+/********************* testimonials ****************/
+#testimonials{ 
+ padding-top:30px;
+ padding-bottom:30px;
+}
+.testimonials_1 h2{ 
+ text-align:center;
+ color: #f0af51;
+ padding-bottom:30px;
+}
+.testimonials_4 img{ 
+ border-radius: 50%;
+}
+.testimonials_5{ 
+ padding-top:8px;
+}
+.testimonials_5 h3{ 
+ color: #f0af51;
+ padding-top: 3px;
+ padding-bottom: 3px;
+}
+.testimonials_5 h4{ 
+ color: #b5b3b3;
+}
+.testimonials_5 ul{ 
+ padding-top:10px;
+}
+.testimonials_5 li{ 
+ display:inline;
+ padding-right:10px;
+}
+.testimonials_5 li a{ 
+ font-size:20px;
+}
+
+.testimonials_6 p{ 
+ padding:0px;
+ margin:0px;
+ padding-top:10px;
+ }
+/********************* testimonials_end ****************/
+
+
+
+
+
+@media screen and (max-width : 767px){
+.about_inner {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+#about {
+ text-align: center;
+}
+.team_main_2 {
+ margin-bottom: 10px;
+}
+#testimonials {
+ text-align: center;
+}
+.testimonials_1 h2 {
+ padding-bottom: 10px;
+}
+.about_3 h3{
+text-align:left; 
+ }
+.about_3 p{
+text-align:left; 
+ }
+.testimonials_6 p{
+text-align:left;
+margin-bottom:10px; 
+ }
+}
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+@media (min-width:768px) and (max-width:991px) { 
+.about_3 h2 {
+ font-size: 32px;
+}
+.about_3 h3 {
+ font-size: 19px;
+}
+.about_3 p{
+ font-size: 17px;
+}
+.testimonials_4 img {
+ width: 100%;
+}
+.testimonials_5 h3 {
+ font-size: 23px;
+}
+.testimonials_5 {
+ padding-left: 10px;
+}
+.testimonials_5 h4 {
+ font-size: 15px;
+}
+.about_2 img{
+ min-height:400px;
+ }
+} 
+
+@media (min-width:992px) and (max-width:1200px) {
+.about_3 h2 {
+ font-size: 32px;
+}
+.about_3 h3 {
+ font-size: 19px;
+}
+.about_3 p{
+ font-size: 17px;
+}
+.testimonials_4 img {
+ width: 100%;
+}
+.testimonials_5 h3 {
+ font-size: 23px;
+}
+.testimonials_5 {
+ padding-left: 10px;
+}
+.testimonials_5 h4 {
+ font-size: 15px;
+}
+.team_main_2 p {
+ font-size: 16px;
+}
+.testimonials_6 p {
+ padding-top: 4px;
+ font-size: 16px;
+}
+.about_2 img{
+ min-height:400px;
+ }
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

@@ -1,0 +1,167 @@
+/*
+Template Name:Artiste
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+
+
+/********************* contact_main ****************/
+#contact_main{ 
+ background-image: url(../img/52.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.contact_inner{ 
+ padding-top:120px;
+ padding-bottom:120px;
+ background-color: #000000ab;
+}
+.contact_main_1{ 
+ text-align:center;
+}
+.contact_main_1 h1{ 
+ color:#fff;
+}
+.contact_main_1 h3{ 
+ margin-top:0px;
+ color:#fff;
+}
+.contact_main_1 ul{ 
+ padding-top:10px;
+}
+.contact_main_1 li{ 
+ display:inline;
+ padding-right:5px;
+ color: #fff;
+ font-size: 25px;
+}
+.contact_main_1 li a:hover{ 
+ color: #fff;
+}
+/********************* contact_main_end ****************/
+/********************* contact ****************/
+#contact{ 
+ padding-top:30px;
+ padding-bottom:30px;
+ }
+.contact_2 h2{
+  color: #f0a951;
+}
+.contact_7 h2{
+ color: #f0a951;
+ padding-bottom:20px;
+}
+.contact_5 h3{
+ color: #333;
+}
+.contact_4 i{ 
+ background-color: #ffefdd;
+ text-align: center;
+ font-size: 25px;
+ border-radius: 50%;
+ width: 2.4em!important;
+ height: 2.4em!important;
+ line-height: 2.5em;
+ }
+.contact_5 p{ 
+ padding:0px;
+ margin:0px;
+ color: #867979;
+ }
+.contact_3{  
+ border-bottom: 1px solid #f0a95142;
+ padding-bottom:25px;
+ padding-top:20px;
+ }
+.contact_6{  
+ padding-top:20px;
+ }
+#contact .form-control {
+ font-size: 20px;
+ background-color: #f0a95117;
+ color: #999;
+ box-shadow:none;
+ border-color:#f0a95142;
+}
+#contact .form-control::placeholder{
+ color: #999;
+}
+.contact_8 input {
+ padding-top: 25px;
+ padding-bottom: 25px;
+ margin-bottom: 10px;
+}
+.contact_9 textarea {
+ height: 155px;
+ width: 100%;
+}
+.contact_10 ul{ 
+ padding-top:20px;
+ }
+.contact_last{
+margin-top:30px; 
+ }
+/********************* contact_end ****************/
+
+
+
+
+@media screen and (max-width : 767px){
+.contact_inner {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+#contact {
+ text-align: center;
+}
+.contact_5{ 
+ padding-top:10px;
+}
+.contact_3 {
+ padding-bottom: 15px;
+ padding-top: 15px;
+}
+.contact_7 h2 {
+ padding-top: 10px;
+}
+}
+
+@media (min-width:470px) and (max-width:767px) {
+
+}
+ 
+@media (min-width:768px) and (max-width:991px) { 
+.contact_5 p {
+ font-size: 16px;
+}
+.contact_5 h3{ 
+ font-size: 23px;
+}
+.contact_4 i {
+ font-size: 20px;
+ width:40px!important;
+ height:40px!important;
+ line-height: 40px;
+}
+} 
+
+@media (min-width:992px) and (max-width:1200px) {
+.contact_5 p {
+ font-size: 16px;
+}
+.contact_5 h3{ 
+ font-size: 23px;
+}
+.contact_4 i {
+ font-size: 20px;
+ width:40px!important;
+ height:40px!important;
+ line-height: 40px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
